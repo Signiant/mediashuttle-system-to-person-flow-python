@@ -1,0 +1,30 @@
+developer:
+  key: #dev key
+portal:
+  url: #portal url
+webhook:
+  url: #webhook url
+tokenUrl:
+  expiryDay: 10
+base:
+  path: https://api.mediashuttle.com/v1
+user:
+  mail: #usermail
+destination:
+  path:
+server:
+  port: 8080
+transferfiles:
+  files:
+    -
+      path: #filePath1
+      isDirectory: #true or false
+      size: #filesize
+    -
+      path: #filePath2
+      isDirectory: #true or false
+      size: #filesize
+    -
+      path: #filePath3
+      isDirectory: #true or false
+      size: #filesize
